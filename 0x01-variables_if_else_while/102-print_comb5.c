@@ -29,7 +29,7 @@ int main(void)
 						putchar(' ');
 						putchar(b);
 						putchar(a);
-						if (d == 57 && c == 56 && b == 57 && a == 57)
+					if (d == 57 && c == 56 && b == 57 && a == 57)
 						{
 							break;
 						}
@@ -47,4 +47,4 @@ int main(void)
 	putchar('\n');
 	/*return:0*/
 	return (0);
-}	
+}
