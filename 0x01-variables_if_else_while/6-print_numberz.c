@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main-Prints numbers of base 10, from 0 to 9
  *
