@@ -32,11 +32,11 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-			b++
+			b++;
 		}
-		i++
+		i++;
 	}
-	a++
+	a++;
 }
 putchar('\n');
 /*return:0*/
