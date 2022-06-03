@@ -1,5 +1,7 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
+/*this is the standard library and time header*/
+
 /**
  * main-Prints out whether a variable is positive or negative
  *
