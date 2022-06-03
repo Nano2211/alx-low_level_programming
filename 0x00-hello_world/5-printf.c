@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main-Prints out a string
+ * main-Prints out "with proper grammar, but the outcome is a piece of art,
+ * followed by a new line"
  *
  * Returns: Always 0.
  */
