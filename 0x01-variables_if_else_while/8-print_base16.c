@@ -1,20 +1,19 @@
 #include <stdio.h>
 /**
- *main-Prints numbers of base 16 which are 0 and 9 
+ *main-Prints numbers of base 16 which are 0 and 9
  * and,the letters a to f
  *
  * Return: Always 0
  */
 int main(void)
 {
-	char alp[6] = "abcdef";
 	int i;
 
-	for (i = 0; i < 10; i++)
+	for (i = 48; i < 58; i++)
 	{
 		putchar(i);
 	}
-	for (i = 0; i <= 6; i++)
+	for (i = 97; i < 103; i++)
 	{
 		putchar(alp[i]);
 	}
