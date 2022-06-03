@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main-Prints numbers of base 16 which are 0 to 9 and 
- * the letters a to f
+ *main-Prints numbers of base 16 which are 0 and 9 
+ * and,the letters a to f
  *
  * Return: Always 0
  */
