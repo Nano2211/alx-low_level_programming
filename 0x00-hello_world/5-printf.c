@@ -1,11 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * main - Entry point
+ * main- Prints out a string
  *
- * Return : Always 0 (success)
- */ 
+ * Retun: Always 0.
+ */
 int main(void)
 {
-	printf("with proper grammer, but the outcome is a piece of art,\n ");
+	printf("with proper grammar,but the outcome is a piece of art,\n");
 	return(0);
 }
