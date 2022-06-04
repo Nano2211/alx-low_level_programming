@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main- Print out the possible combo of 0 to 99
+ * main- Print out a comb of 3 digits
  *
  * Return: Always 0
  */
@@ -15,36 +15,37 @@ int main(void)
 		while (c < 58)
 		{
 			b = 48;
-			while (b < 58)
+		while ( b < 58)
+		{
+			a = 48;
+			while (a < 58)
 			{
-				a = 48;
-				while (a < 58)
+				op1 = (d * 10) + c;
+				op2 = (b * 10) + a;
+				if (op1 < op2)
 				{
-					op1 = (d * 10) + c;
-					op2 = (b * 10) + a;
-					if (op1 < op2)
-					{
-						putchar(d);
-						putchar(c);
-						putchar(' ');
-						putchar(b);
-						putchar(a);
+					putchar(d);
+					putchar(c);
+					putchar(' ');
+					putchar(b);
+					putchar(a);
 					if (d == 57 && c == 56 && b == 57 && a == 57)
-						{
-							break;
-						}
-							putchar(',');
-							putchar(' ');
-						}
-						a++;
+					{
+						break;
 					}
-					b++;
+					putchar(',');
+					putchar(' ');
 				}
-				c++;
+				a++;
 			}
-			d++;
+			b++;
+		}
+		c++;
+		}
+		d++
 	}
 	putchar('\n');
 	/*return:0*/
 	return (0);
 }
+
