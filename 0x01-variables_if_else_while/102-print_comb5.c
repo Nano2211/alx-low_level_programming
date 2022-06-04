@@ -42,7 +42,7 @@ int main(void)
 		}
 		c++;
 		}
-		d++
+		d++;
 	}
 	putchar('\n');
 	/*return:0*/
