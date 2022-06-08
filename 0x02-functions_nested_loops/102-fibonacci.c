@@ -17,7 +17,7 @@ int main(void)
 		{
 		printf("%ld, ", j);
 		}
-		else 
+		else
 		{
 			printf("%ld\n", j);
 		}
