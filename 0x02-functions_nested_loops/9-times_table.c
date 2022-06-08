@@ -6,9 +6,7 @@
  */
 void times_tables(void)
 {
-	int a;/*operand*/
-	int b;/*operand*/
-	int c;/*result of multiplication*/
+	int a, b, c;/*operand, operand, result of mutiplication*/
 
 	for (a = 0; a <= 9; a++)
 	{
