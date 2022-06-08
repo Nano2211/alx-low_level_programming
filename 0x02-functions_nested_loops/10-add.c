@@ -1,6 +1,6 @@
-#include "main.h" 
+#include "main.h"
 /**
- * _add- Prints the sum of two integers
+ * add- Prints the sum of two integers
  *
  * @a: int type
  * @b: int type
