@@ -12,7 +12,7 @@ void print_alphabet_x10(void)
 	while (i < 10)
 	{
 		c = 97;
-		for (c <= 122)
+		while (c <= 122)
 		{
 			_putchar(c);
 			c++
