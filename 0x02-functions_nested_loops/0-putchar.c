@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char alx[] = "ALX";
+	char alx[] = "_putchar";
 	int i = 0;
 
 	while (alx[i] != '\0')
