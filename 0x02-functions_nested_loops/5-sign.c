@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  * print_sign- Prints the sign of a number
- * returns -1 for neg, 1 for pos and 0 
+ * returns -1 for neg, 1 for pos and 0
  *
- * @n: int type 
+ * @n: int type
  *
  * Return: Always 0
  */
-int print_sign(int n )
+int print_sign(int n)
 {
 	if (n > 0)
 	{
