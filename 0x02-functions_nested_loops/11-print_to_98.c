@@ -8,7 +8,7 @@
  *
  * Return: Always 0
  */
-int print_to_98(int n)
+void print_to_98(int n)
 {
 	if (n > 98)
 	{
@@ -19,7 +19,7 @@ int print_to_98(int n)
 			{
 				printf(", ");
 			}
-			n--
+			n--;
 		}
 	}
 	else
@@ -31,7 +31,7 @@ int print_to_98(int n)
 			{
 				printf(", ");
 			}
-			n++
+			n++;
 		}
 	}
 	printf("\n");
