@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jack_bauer- Prints the every minute of the day of jack bauer soundtrack 
+ * jack_bauer- Prints the every minute of the day of jack bauer soundtrack
  * from 00:00 to 23:59
  *
  * Return: Always 0
@@ -11,9 +11,9 @@ void jack_bauer(void)
 
 	for (a = 48; a <= 50; a++)
 	{
-		for (b =48; b <= 57; b++)
+		for (b = 48; b <= 57; b++)
 		{
-			for (c = 48; c <= 53; c ++)
+			for (c = 48; c <= 53; ++)
 			{
 				for (d = 48; d <= 57; d++)
 				{
