@@ -14,7 +14,7 @@ int main(void)
 		_putchar(alx[i]);
 		i++;
 	}
-	_putchar("\n");
+	_putchar('\n');
 	/*return:0*/
 	return (0);
 }
