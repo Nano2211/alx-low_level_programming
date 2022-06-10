@@ -11,7 +11,7 @@
  *
  * Return : 1 if uppercase and 0 if not
  */
-_isupper(int c)
+int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 	{
