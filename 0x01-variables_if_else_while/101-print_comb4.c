@@ -20,12 +20,12 @@ int main(void)
 			b = 48;
 			while (b < 58)
 			{
-				if (a != i && a != b && i = b && a < i && i < b)
+				if (a != i && a != b && i == b && a < i && i < b)
 				{
 				putchar(a);
 				putchar(i);
 				putchar(b);
-				if ( i == 56 && a == 55 && b = 57)
+				if ( i == 56 && a == 55 && b == 57)
 				{
 					break;
 				}
