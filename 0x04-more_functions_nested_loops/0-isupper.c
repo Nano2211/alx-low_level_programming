@@ -1,8 +1,3 @@
-/**
- * File: 0-isupper.c
- * Auth: Mihlali Nene
- */
-
 #include "main.h"
 
 /**
@@ -12,13 +7,12 @@
  * Return : 1 if uppercase and 0 if not
  */
 int _isupper(int c)
+
 {
-	if (c >= 'A' && c <= 'Z')
+	if ((c >= 'A') && (c <= 'Z'))
 	{
 		return (1);
 	}
-	else
-	{
-		return (0);
-	}
+
+	return (0);
 }
