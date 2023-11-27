@@ -26,7 +26,7 @@ unsigned long int _power(unsigned int base, unsigned int power)
 */
 void print_binary(unsigned long int n)
 {
-	unsigned long int divisor, check;
+	unsigned long int divsor, check;
 	char fly;
 
 	fly = 0;
