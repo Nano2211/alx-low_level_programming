@@ -1,11 +1,1 @@
-0.Write a function that allocates memory using malloc.
-
-1.Write a function that concatenates two strings.
-
-2.Write a function that allocates memory for an array, using malloc.
-
-3.Write a function that creates an array of integers.
-
-4.A function that reallocates a memory block using malloc and free
-
-5.A program that multiplies two positive numbers.
+This repo contains all the code related to the concepts of low level programming in datat manipulation in the C language
