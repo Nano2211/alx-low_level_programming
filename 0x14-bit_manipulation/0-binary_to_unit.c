@@ -1,44 +1,28 @@
 #include "main.h"
-#include <string.>
-#include <stdio.h>
 
 /**
- * binary_to_unit - a function that converts a binary string to an unsigned int.
- * @b: a pointer to a binary string containing a binary number
- *
- * Return: unsigned int from binary string or, 0 if error
- */
-unsigned int binary_to_unit(const char *b)
+* binary_to_uint - a function that converts a binary number to an unsigned int.
+* @b: pointer to a string with a binary number
+* Return: unsigned int with decimal value of binary number, or 0 if error
+*/
+unsigned int binary_to_uint(const char *b)
 {
-	int len = strlen(b);
-	unsigned int x = 0;
+	int a;
+	unsigned int xx;
 
-	for (int a = 0; a < len; a++)
-	{
-		if (b[a] == '1')
-		{
-			x |= (1 << (len - 1 - a));
-					return (0);
-					}
-		if (b[a] != '0')
-		{
-			printf("invalid binary string\n");
-			return (0);
-			}
-			}
-	 for (a = 0; b[a] != '\0'; a++)
-	 {
-	 if (b[a] != '0' && b[a] != '1')
-	 {
-			printf("invalid binary string\n");
-			return (0);
-			}
-	}
-	 for (a = 0; b[a] != '\0'; a++)
-	 {
-	 x <<= 1;
-		if (b[a] == '1')
-			x += 1;
-	 }
-	 return (x);
+	xx = 0;
+	if (!b)
+		return (0);
+	for (a = 0; b[a] != '\0'; a++)
+{
+	if (b[a] != '0' && b[a] != '1')
+		return (0);
+}
+for (a = 0; b[a] != '\0'; a++)
+{
+	xx <<= 1;
+	if (b[a] == '1')
+		xx += 1;
+}
+return (xx);
 }
